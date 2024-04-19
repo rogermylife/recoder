@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "recorder",
+    "version": "1.0",
+    "description": "Description of your extension",
+    "permissions": ["activeTab","tabs","scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
